@@ -8,9 +8,9 @@ public class Conexion {
     public static Connection getConexion(){
         Connection conexion = null;
         var baseDatos = "estudiantes_db";
-        var url = "jdbc:mysql://localhost:3306/" + baseDatos;
-        var usuario = "root";
-        var password = "admin";
+        var url = " " + baseDatos; //TU URL
+        var usuario = " "; //TU USER
+        var password = " "; //TU PASS
         //Cargamos la clase del driver de mysql en memoria
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
